@@ -2,7 +2,7 @@
 
 ### Configuration :
 
-please edit these varialble 
+please edit these variables
 
 ``` 
 configs = {
