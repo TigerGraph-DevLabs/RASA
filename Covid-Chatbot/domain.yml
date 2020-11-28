@@ -1,0 +1,69 @@
+version: "2.0"
+
+intents:
+- greet   
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- infection_source
+- patient_location
+- pokemon_type
+
+entities:
+  - patientid
+  - userlocation
+  - pokemontype
+
+slots:
+  patientid:
+    type: text
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_infection_source_filled:
+  - text: "there are {count} people infected  {patientid}"
+  utter_infection_source_empty:
+  - text: "there are no records of infection."
+
+  utter_infection_place_filled:
+  - text: "the patient  {patientid}  got infected at {place} "
+  utter_infection_place_empty:
+  - text: "there are no records of infection location."
+
+  utter_pokemon_filled:
+  - text: "The {pokemonname} type is : {pokemontype}"
+  utter_pokemon_empty:
+  - text: "No records of the pokemon {pokemonname}."
+
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+# Only modification compared to Sara Chatbot
+actions:
+  - action_search_patients
+  - action_patient_location
+  - action_pokemon_type
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

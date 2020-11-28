@@ -1,0 +1,80 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+ - hey
+ - Hello
+ - hi
+ - good morning
+ - good evening
+ - hey there
+- intent: goodbye
+  examples: |
+ - bye
+ - goodbye
+ - see you later
+ - see you around
+- intent: affirm
+  examples: |
+ - yes
+ - yep
+ - indeed
+ - of course
+ - correct
+ - that sounds good
+- intent: deny
+  examples: |
+ - no 
+ - never
+ - I don't think so
+ - don't like that
+ - no way 
+ - not really
+- intent: mood_great
+  examples: |
+ - perfect
+ - very good
+ - great
+ - amazing
+ - wonderful
+ - I am feeling very good
+ - I am great
+ - I'm good
+ - I am good
+ - I'm  fine
+ - fine
+- intent: mood_unhappy
+  examples: |
+ - sad
+ - very sad
+ - unhappy
+ - bad
+ - very bad
+ - awful
+ - terrible
+ - not very good
+ - extremely sad
+ - so sad
+ - not  good
+ - so so 
+- intent: bot_challenge
+  examples: |
+ - are you a bot?
+ - are you a human?
+ - am I talking to a bot?
+ - am I talking to a human?
+- intent: age
+  examples: |
+ - which age groups have covid-19?
+ - covid-19 affects which ages?
+ - what is the number of infected patients in <age-value> years
+ - what is the number of <age-value> years old infected patients
+ - what is the number of <age-value> years old infected patients
+- intent: infected
+  examples: |
+ - who were infected by patient <patient_id>
+ - who infected patient <patient_id>
+ - which patients did patient <patient_id> infect?
+- intent: appointement
+  examples: |
+ - Can i have an appointement?

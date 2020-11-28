@@ -1,0 +1,13 @@
+ID;type;info;intent;value;;;
+1;info;happy path;greet;utter_greet;;;
+2;info;happy path;mood_great;utter_happy;;;
+3;info;sad path 1;greet;utter_greet;;;
+4;info;sad path 1;mood_unhappy;utter_cheer_up;;;
+5;info;sad path 1;mood_unhappy;utter_did_that_help;;;
+6;info;sad path 1;affirm;utter_happy;;;
+7;info;sad path 2;greet;utter_greet;;;
+8;info;sad path 2;mood_unhappy;utter_cheer_up;;;
+9;info;sad path 2;mood_unhappy;utter_did_that_help;;;
+10;info;sad path 2;deny;utter_goodbye;;;
+11;info;say goodbye;goodbye;utter_goodbye;;;
+12;info;bot challenge;bot challenge;"utter_iamabot

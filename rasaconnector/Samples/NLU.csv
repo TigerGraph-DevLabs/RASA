@@ -1,0 +1,60 @@
+;TYPE;INTENT;VALUE
+1;intent;greet;hey
+2;intent;greet;Hello
+3;intent;greet;hi
+4;intent;greet;good morning
+5;intent;greet;good evening
+;intent;greet;ola
+6;intent;greet;hey there
+7;intent;goodbye;bye
+8;intent;goodbye;goodbye
+9;intent;goodbye;see you later
+10;intent;goodbye;see you around
+11;intent;affirm;yes
+12;intent;affirm;yep
+13;intent;affirm;indeed
+14;intent;affirm;of course
+15;intent;affirm;correct
+16;intent;deny;no 
+17;intent;deny;never
+18;intent;deny;I don't think so
+19;intent;deny;don't like that
+20;intent;deny;no way 
+21;intent;deny;not really
+22;intent;affirm;that sounds good
+23;intent;mood_great;perfect
+24;intent;mood_great;very good
+25;intent;mood_great;great
+26;intent;mood_great;amazing
+27;intent;mood_great;wonderful
+28;intent;mood_great;I am feeling very good
+29;intent;mood_great;I am great
+30;intent;mood_great;I'm good
+31;intent;mood_great;I am good
+32;intent;mood_great;I'm  fine
+33;intent;mood_great;fine
+34;intent;mood_unhappy;sad
+35;intent;mood_unhappy;very sad
+36;intent;mood_unhappy;unhappy
+37;intent;mood_unhappy;bad
+38;intent;mood_unhappy;very bad
+39;intent;mood_unhappy;awful
+40;intent;mood_unhappy;terrible
+41;intent;mood_unhappy;not very good
+42;intent;mood_unhappy;extremely sad
+43;intent;mood_unhappy;so sad
+44;intent;mood_unhappy;not  good
+45;intent;mood_unhappy;so so 
+46;intent;bot_challenge;are you a bot?
+47;intent;bot_challenge;are you a human?
+48;intent;bot_challenge;am I talking to a bot?
+49;intent;bot_challenge;am I talking to a human?
+50;intent;age;which age groups have covid-19?
+51;intent;age;covid-19 affects which ages?
+52;intent;age;what is the number of infected patients in <age-value> years
+53;intent;age;what is the number of <age-value> years old infected patients
+54;intent;age;what is the number of <age-value> years old infected patients
+55;intent;infected;who were infected by patient <patient_id>
+56;intent;infected;who infected patient <patient_id>
+57;intent;infected;which patients did patient <patient_id> infect?
+58;intent;appointement;Can i have an appointement?

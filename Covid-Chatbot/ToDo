@@ -1,0 +1,17 @@
+
+**** Coding Steps 
+1. endpoints.yml : enable web action hooks ? ==> Action.py communicate action_endpoint
+2. domain add reference for the action line 46
+3. for multi turn conversation use rules instead of Stories : Example/Template ==> Line 15 of rules.yml
+4. define the actions in the actions.py 
+    a. make sure that the retun name is the same as in domain
+    b. recover entities from latest message
+    c. do the call or process [ asking for a weather ? call the API weather /// call the API for the ERP ]
+    d. dispatcher.utter_message ==> Domain/Responses
+
+
+**** Running Steps 
+1. rasa train 
+2. two terminals
+    a. rasa run actions
+    b. rasa shell
