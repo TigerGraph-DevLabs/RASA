@@ -1,3 +1,9 @@
+## RASA Unleashed with TigerGraph :
+
+![](web/static/rasa_image.png)
+
+## Demo :
+
 ![](web-rasa-tigergraph.gif)
 
 ### Configuration :
